@@ -1,0 +1,78 @@
+#firstSection {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#testlogo {
+    height: 70px;
+    margin-right: 20%;
+}
+
+.d-flex {
+    margin-right: 25px;
+}
+
+.card-img-top {
+    height: 37vh;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+}
+
+#monks {
+    height: 300px;
+    width: 600px;
+}
+
+#para {
+    width: 600px;
+
+}
+
+.pic{
+    height: 40vh;
+    width: 90%;
+}
+
+#inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#forPara {
+    margin-right: 30px;
+}
+
+#forImg img{
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    #firstSection {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .card {
+        background-color: black;
+        color: white;
+        border: 1px solid grey;
+        margin-bottom: 50px;
+    }
+    
+    #monks {
+        height: 250px;
+        width: 400px;
+    }
+    
+    #para {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
